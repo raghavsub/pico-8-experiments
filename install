@@ -1,0 +1,16 @@
+#! /usr/bin/env bash
+#
+# Install PICO-8 carts
+
+main() {
+    PICO_DIR=""$HOME"/.lexaloffle/pico-8"
+    if [[ ! -d "$PICO_DIR"/carts ]] ; then
+        echo "Copying carts to "$PICO_DIR"/carts"
+        ln -s "$PWD"/carts "$PICO_DIR"/carts
+        exit 0
+    fi
+    echo ""$PICO_DIR"/carts is not empty. Exiting..."
+    exit 1
+}
+
+main
