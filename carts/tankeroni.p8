@@ -2,7 +2,7 @@ pico-8 cartridge // http://www.pico-8.com
 version 16
 __lua__
 -- tankeroni by imabearlol
--- defend the pizza from icky vegetables. made by a vegetarian.
+-- make pizza the old fashioned way (with a fucking tank)
 
 tank = {}
 tank.x = 64
