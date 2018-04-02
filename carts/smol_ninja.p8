@@ -1,7 +1,8 @@
 pico-8 cartridge // http://www.pico-8.com
 version 16
 __lua__
--- smol ninja by Imabearlol
+-- smol ninja
+-- by imabearlol
 
 -- player table
 player = {}
