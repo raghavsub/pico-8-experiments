@@ -1,10 +1,8 @@
 pico-8 cartridge // http://www.pico-8.com
 version 16
 __lua__
--- tankeroni
+-- tank
 -- by imabearlol
--- make pizza the old fashioned
--- way (with a fucking tank)
 
 tank = {}
 tank.x = 64
